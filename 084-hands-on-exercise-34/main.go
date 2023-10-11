@@ -7,5 +7,6 @@ func main() {
 		for j := 1; j <= 5; j++ {
 			fmt.Printf("Line %v, Row %v\n", i, j)
 		}
+		fmt.Println("")
 	}
 }

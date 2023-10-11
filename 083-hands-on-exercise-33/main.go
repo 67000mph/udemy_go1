@@ -8,11 +8,9 @@ import (
 func main() {
 	i := 0
 	for {
-		if i%2 == 0 {
-			i++
-			continue
+		if i%2 != 0 {
+			fmt.Println(i)
 		}
-		fmt.Println(i)
 		i++
 		time.Sleep(time.Second / 2)
 	}
