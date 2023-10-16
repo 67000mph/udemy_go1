@@ -11,4 +11,5 @@ func main() {
 			fmt.Printf("x is %v\n", x)
 		}
 	}
+	fmt.Println("Test")
 }
