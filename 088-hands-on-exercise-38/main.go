@@ -12,4 +12,6 @@ func main() {
 		}
 	}
 	fmt.Println("Test")
+
+	// Test
 }
